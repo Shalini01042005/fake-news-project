@@ -1,30 +1,54 @@
 # Fake News Detection System
 
-An AI-powered Fake News Detection System built using Python and Machine Learning to classify news articles as Fake or Real.
+An AI-powered Fake News Detection System developed using Python, Machine Learning, and Natural Language Processing (NLP) to classify news articles as Fake or Real.
+
+---
 
 ## Project Overview
-This project uses Natural Language Processing (NLP) and Machine Learning algorithms to analyze news content and predict whether the news is genuine or fake.
+
+This project analyzes news content and predicts whether the given news is genuine or fake using machine learning techniques and text preprocessing methods.
+
+---
 
 ## Features
-- Detects fake and real news
-- Machine Learning based prediction
-- User-friendly interface
-- Text preprocessing using NLP
-- Fast and accurate classification
+
+- Fake and Real news classification
+- NLP-based text preprocessing
+- Machine Learning prediction model
+- Simple and user-friendly interface
+- Fast and accurate detection
+
+---
 
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
 - Scikit-learn
-- NLP
-- Flask / Streamlit (if used)
+- Flask
+- NLTK
+
+---
 
 ## Dataset
+
 The project uses:
-- Fake.csv
-- True.csv
+- `Fake.csv`
+- `True.csv`
 
 These datasets contain fake and real news articles used for training and testing the model.
 
+---
+
 ## Project Structure
+
+``` id="4cjv1l"
+Fake-News-Project/
+│
+├── app.py
+├── main.py
+├── Fake.csv
+├── True.csv
+├── requirements.txt
+├── README.md
